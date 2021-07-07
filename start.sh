@@ -4,19 +4,17 @@
 #Youtube : Tgt Finx
 #Discord : Finx#7467
 echo -e '\033[31;40;1m 
-		  (\__/)
-          (>'.'<)
-          (")_(")
-
-
-      \e[35m      ☠         Code  : SedatKorkmaz     ☠
+		     (\__/)
+                      (>'.'<)
+                     (")_(")
+     \e[35m      ☠         Code  : SedatKorkmaz     ☠
 	  \e[34m☠	     Github : SedatKorkmaz       ☠
 	 \e[33m☠  	    Youtube : Tgt Finx       ☠
 	\e[32m☠ 	   İnstagram : Yok         ☠
 	\e[32m☠       Discord : Finx#7467    ☠
 	\e[36m 	 ☾★ ☾★ TürkishGuyTeam ☾★ ☾★	
  \e[36m 	 ☾★ ☾★ Toolların Birkaç Tanesi Bana Aittir Bazıları Değildir. ☾★ ☾★
-\e[36m      ☾★ ☾★ Görende Ayyıldız Tim Sanacak :D :D  ☾★ ☾★
+\e[36m      ☾★ ☾★ Görende Ayyıldız Tim Sanacak ☾★ ☾★
 \e[32m[1]\e[33mTermux Güncelle		\e[32m[12]\e[33mFindUser 
 \e[32m[2]\e[33mXerxes	Kurulum		\e[32m[13]\e[33mNmap AB Kurulum
 \e[32m[3]\e[33mHunner	Kurulum		\e[32m[14]\e[33mA-Rat-Kurulum
@@ -28,7 +26,8 @@ echo -e '\033[31;40;1m
 \e[32m[9]\e[33mİPGeoLocation		\e[32m[20]\e[33mMd-5 Force
 \e[32m[10]\e[33mTc-Kimlik	İbrahim		\e[32m[21]\e[33mİnsta-brute	
 \e[32m[11]\e[33mİnstagram-Spam		\e[32m[22]\e[33mTermux-Debian
-                                    \e[32m[23]\e[33mTürkish-GuyAdminPanelBulucu-SedatKorkmazFinx
+
+	'
 
 
 
@@ -54,7 +53,7 @@ pkg install perl -y
 apt update
 apt upgrade -y
 clear
-echo -e '\033[31;40;1m              Kurulum Bitti! SedatKorkmaz'
+echo -e '\033[31;40;1m              Kurulum Bitti!'
 sleep 2
 bash start.sh
 
@@ -67,7 +66,7 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
         chmod 777 xerxes.c
         clang  xerxes.c -o  xerxes
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -77,7 +76,7 @@ elif [[ $islem == 3 || $islem == 03 ]]; then
         cd $HOME
         git clone https://github.com/b3-v3r/Hunner
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -89,7 +88,7 @@ elif [[ $islem == 4 || $islem == 04 ]]; then
         rm -rf /data/data/com.termux/files/usr/bin/ngrok
         mv -v ngrok /data/data/com.termux/files/usr/bin
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 #menu 4
@@ -99,7 +98,7 @@ elif [[ $islem == 5 || $islem == 05 ]]; then
         cd $HOME
         git clone https://github.com/ciku370/ko-dork
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 #menu 5
@@ -109,7 +108,7 @@ elif [[ $islem == 6 || $islem == 06 ]]; then
         cd $HOME
         git clone https://github.com/sqlmapproject/sqlmap
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 #menu 6
@@ -118,7 +117,7 @@ elif [[ $islem == 7 || $islem == 07 ]]; then
         cd $HOME
         git clone https://github.com/s0md3v/Breacher
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bana Ait Değildir Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -129,7 +128,7 @@ elif [[ $islem == 8 ]]; then
         pkg install unstable-repo
         pkg install metasploit
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -142,7 +141,7 @@ elif [[ $islem == 9 || $islem == 09 ]]; then
         cd IPGeoLocation
         pip install -r requirements.txt
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -152,7 +151,7 @@ elif [[ $islem == 10 ]]; then
         cd $HOME
         git clone https://github.com/ibrahimirdem/tckimlik
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bana Ait Değildir İbrahimErdem Kardeşimize Aittir...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -165,7 +164,7 @@ elif [[ $islem == 11 ]]; then
         cd instaspam
         pip install colorama
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -176,7 +175,7 @@ elif [[ $islem == 12 ]]; then
         cd $HOME
         git clone https://github.com/xHak9x/finduser
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -186,7 +185,7 @@ elif [[ $islem == 13 ]]; then
         cd $HOME
         pkg install nmap -y
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -199,7 +198,7 @@ elif [[ $islem == 14 ]]; then
         cd A-Rat
         chmod 777 A-Rat.py
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -209,7 +208,7 @@ elif [[ $islem == 15 ]]; then
         cd $HOME
         git clone https://github.com/yamanefkar/Camera-Tr
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı... Bana Ait Değildir YamanEfkar Kardeşimize Aittir'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 #menu 15
@@ -218,7 +217,7 @@ elif [[ $islem == 16 ]]; then
         cd $HOME
         git clone https://github.com/iammtw/Weeman
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -231,7 +230,7 @@ elif [[ $islem == 17 ]]; then
         cd OSIF
         pip2 install -r requirements.txt
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -245,7 +244,7 @@ elif [[ $islem == 18 ]]; then
         chmod 777 *
         pip install -r requirements.txt
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -258,7 +257,7 @@ elif [[ $islem == 19 ]]; then
         cd Turk-Sploit
         bash requirements.sh
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bana Ait Değildir YamanEfkar Kardeşimize Aittir....'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -268,7 +267,7 @@ elif [[ $islem == 20 ]]; then
         cd $HOME
         git clone https://github.com/ciku370/hasher
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bana Ait Değildir Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -281,7 +280,7 @@ elif [[ $islem == 21 ]]; then
         cd Instagram
         pip3 install -r requirements.txt
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bana Ait Değildir Bu Toollar Yabancıdır...'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
@@ -299,25 +298,15 @@ elif [[ $islem == 22 ]]; then
         sleep 2
         mv -v start-ubuntu.sh /data/data/com.termux/files/usr/bin
         sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Bana Ait Değildir Bu Toollar Yabancıdır....'
+        echo -e '\033[31;40;1mKurulum Tamamlandı...'
 	cd $HOME/Hack-Tools
         bash start.sh
 
 
 else   
 	clear
-        echo -e '\033[36;40;1m Girdiğniz İşlem Numarasını Kontrol Ediniz TürkishGuyTim....'	
+        echo -e '\033[36;40;1m Girdiğniz İşlem Numarasını Kontrol Ediniz....'	
 	sleep 1
 	clear 
 	bash start.sh
 fi
-elif [[ $islem == 2 || $islem == 02 ]]; then
-        clear
-        cd $HOME
-        git clone https://github.com/SedatTR3348237878HMLD/Turkish-Guyew
-        sleep 5
-        cd $HOME/Türkish-Guyew/
-        sleep 2
-        echo -e '\033[31;40;1mKurulum Tamamlandı Türkish Guy SedatKOrkmaz Yani Finx E Aittir...'
-	cd $HOME/Hack-Tools
-        bash adminbulucu.pl
