@@ -7,8 +7,8 @@ echo -e '\033[31;40;1m
 		     (\__/)
                       (>'.'<)
                      (")_(")
-     \e[35m      ☠         Code  : SedatKorkmaz     ☠
-	  \e[34m☠	     Github : SedatKorkmaz       ☠
+     \e[35m      ☠         Code  : Finx    ☠
+	  \e[34m☠	     Github :  SedatTR3348237878HMLD     ☠
 	 \e[33m☠  	    Youtube : Tgt Finx       ☠
 	\e[32m☠ 	   İnstagram : Yok         ☠
 	\e[32m☠       Discord : Finx#7467    ☠
